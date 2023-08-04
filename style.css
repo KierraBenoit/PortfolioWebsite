@@ -26,6 +26,8 @@ img {
 
 .nav-tab {
     color: white;
+    display: block;
+    padding: 0 1em;
 }
 
 header {
@@ -38,3 +40,58 @@ header {
     color: #00F7FF;
     font-weight: bold;
 }
+
+.nav-ul {
+    display: flex;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .toggle-button {
+        display: flex;
+    }
+  
+    .nav-menu {
+        display: none;
+        width: 100%;
+    }
+  
+    .nav-ul {
+        width: 100%;
+        flex-direction: column;
+    }
+  
+    .nav-menu ul li {
+        text-align: center;
+    }
+  
+    .nav-menu ul li a {
+        padding: .5rem 1rem;
+    }
+  
+    .nav-menu.active {
+        display: flex;
+    }
+  }
