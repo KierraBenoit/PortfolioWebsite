@@ -21,7 +21,7 @@ img {
 }
 
 .nav-container {
-    background-color: #6E00FF;
+    background-color: #35155D;
 }
 
 .nav-tab {
@@ -37,7 +37,7 @@ header {
 }
 
 .logo {
-    color: #00F7FF;
+    color: #41C5D3;
     font-weight: bold;
 }
 
@@ -94,4 +94,16 @@ header {
     .nav-menu.active {
         display: flex;
     }
+  }
+
+  .hero {
+    background-color: #35155D;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+  }
+
+  .hello {
+    color: #4477CE;
   }
