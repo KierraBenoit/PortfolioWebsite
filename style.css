@@ -104,6 +104,10 @@ header {
     padding: 4em;
   }
 
+  .bio p {
+    line-height: 1.8em;
+  }
+
   .hello {
     color: #4477CE;
   }
@@ -144,4 +148,28 @@ header {
   .portfolio-container a img {
     border-radius: 1em;
     margin-bottom: 2em;
+  }
+
+  .skills {
+    background-color: white;
+    margin-top: -7.5em;
+  }
+
+  .section-title {
+    color: #1e1e1e;
+    font-weight: bold;
+    font-size: 1.75em;
+  } 
+
+  .icons-container {
+    display: grid; 
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 2em 2em;
+ }
+
+  .icons-container img {
+    height: 2.5em;
+    width: 2.5em;
   }
