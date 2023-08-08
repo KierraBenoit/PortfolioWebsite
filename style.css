@@ -207,13 +207,33 @@ header {
   display: flex;
   justify-content: flex-start;
   padding: 15px 0 2.5px 0;
+  font-weight: bold;
+  font-size: .80em;
 }
 
 .input-box{
   background-color: #DCC4FA;
   border: none;
+  height: 2.3em;
 }
 
 .contact-form-container {
   margin: 1em 1em;
+}
+
+#message-area {
+  height: 6.5em;
+  margin-bottom: 2.75em;
+}
+
+button {
+  background-color: #4477CE;
+  border-radius: 11px;
+  border: none;
+  padding: .5em 1em;
+  width: 4.5em;
+  height: 2.5em;
+  color: white;
+  font-weight: 700;
+  font-size: .80em;
 }
