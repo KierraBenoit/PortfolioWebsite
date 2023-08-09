@@ -215,10 +215,11 @@ header {
   background-color: #DCC4FA;
   border: none;
   height: 2.3em;
+  border-radius: .5em;
 }
 
 .contact-form-container {
-  margin: 1em 1em;
+  margin: 0 1em 6.5em 1em;
 }
 
 #message-area {
@@ -237,3 +238,24 @@ button {
   font-weight: 700;
   font-size: .80em;
 }
+
+.number-and-email {
+  padding-bottom: .5em;
+  color: #41C5D3;
+  display: block;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+
+}
+
+.social-media-icons img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 10px 0px 10px;
+}
+
+
+
