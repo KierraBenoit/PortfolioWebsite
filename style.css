@@ -174,8 +174,8 @@ header {
  }
 
   .icons-container img {
-    height: 2.5em;
-    width: 2.5em;
+    height: 3em;
+    width: 3em;
   }
 
   .contact {
@@ -283,7 +283,13 @@ button {
     margin-left: 2em;
   }
 
-  
+  .portfolio {
+    padding: 4em 4em 4em 5em;
+  }
+
+  header {
+    padding-left: 4em;
+  }
   
 }
 
@@ -323,7 +329,72 @@ button {
    
   }
 
+  button {
+    width: 5.5em;
+  }
+
+  .icons-container {
+    grid-template-columns: repeat(4, 1fr);
+ }
+
+}
+
+@media only screen and (min-width: 1050px) {
+
+  .hero-2 img {
+    width: 25em;
+    height: 25em;
+    margin-left: 4em;
+    
+  }
+
+  .image-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-2 {
+    text-align: left;
+    display: grid;
+    padding: 4em;
+    place-content: center;
+    text-align: center;
+  }
+
+  .portfolio img {
+    float: right;
+    max-width: 500px;
+  }
+
+  header {
+    padding-left: 9em;
+  }
+
+  .portfolio {
+    padding: 4em 4em 4em 7.5em;
+  }
  
+  .icons-container {
+    display: flex; 
+    justify-content: center;
+ }
+ 
+ .icons-container img {
+  height: 3.5em;
+  width: 3.5em;
+}
+
+
+}
+
+@media only screen and (min-width: 1250px) {
+  header {
+    padding-left: 12em;
+  }
+
+  .portfolio {
+    padding: 4em 4em 4em 10em;
+  }
 }
 
 
