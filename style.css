@@ -200,6 +200,7 @@ header {
 
 .contact-form {
   display: grid;
+  place-content: center;
 
 }
 
@@ -215,6 +216,7 @@ header {
   background-color: #DCC4FA;
   border: none;
   height: 2.3em;
+  width: 15em;
   border-radius: .5em;
 }
 
@@ -255,6 +257,73 @@ button {
   height: 30px;
   width: 30px;
   margin: 0px 10px 0px 10px;
+}
+
+.hero-2 {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+
+  .portfolio {
+    text-align: left;
+  }
+
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+
+  .portfolio-left {
+    display: grid;
+    place-content: center;
+  }
+
+  .portfolio-container img {
+    margin-left: 2em;
+  }
+
+  
+  
+}
+
+@media only screen and (min-width: 768px) {
+
+  
+
+  .hero {
+    display: none;
+  }
+  
+  .hero-2 {
+    text-align: left;
+    display: grid;
+    padding: 4em 6em 4em 4em;
+    background-color: #35155D;
+    color: white;
+    grid-template-columns: 40% auto;
+  }
+
+  .hero-2 img {
+    margin-left: 2em;
+    height: 25em;
+    border-radius: 1em;
+  }
+
+  .content-2 {
+    line-height: 1.8em;
+  }
+
+  .contact-form-container {
+    margin-bottom: 6.5em;
+  }
+  
+  .input-box{
+    width: 20em;
+   
+  }
+
+ 
 }
 
 
